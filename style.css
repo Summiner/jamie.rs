@@ -1,0 +1,33 @@
+body {
+    background-color: #090909;
+}
+
+.text {
+    padding-top: 15px;
+    color: #fff;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    min-height: 95vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+
+}
+
+footer {
+    text-align: center;
+    padding-top: 14.5%;
+}
