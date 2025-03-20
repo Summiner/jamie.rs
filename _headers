@@ -1,2 +1,5 @@
+https://jamie.rs/ping
+  Cache-Control: no-store
+
 https://jamie.rs/*
   Cache-Control: max-age=14400
