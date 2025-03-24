@@ -1,0 +1,132 @@
+body {
+    background-color: #090909;
+}
+
+.text {
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main {
+    display: flex;
+    width: 100%;
+    min-height: 95vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.server-input {
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    gap: 0.25vw;
+}
+
+.input-btn {
+    width: 8vw;
+    height: 4vh;
+    color: #000;
+    background-color: hotpink;
+    border-color: rgb(218, 88, 153);
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}
+
+.input-txt {
+    width: 25vw;
+    height: 4vh;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    border-color: dimgray;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.input-txt:focus {
+    outline: none;
+}
+
+.server {
+    margin-top: 2.5vh;
+    width: 33.25vw;
+    height: 50vh;
+    background-color: #282828;
+    border-color: rgb(218, 88, 153);
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.server-display {
+    text-align: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.server-display h4, h5 {
+    display: inline-block;
+    margin-left: 0.1vw;
+}
+.motd-box {
+    position: relative;
+    left: 4.125vw;
+    right: 4.125vw;
+    width: 25vw;
+    background-color: #090909;
+    border-radius: 1vh;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.buttons {
+    padding-top: 8vh;
+}
+
+.java-btn {
+    width: 8vw;
+    height: 4vh;
+    color: #000;
+    background-color: hotpink;
+    border-color: rgb(218, 88, 153);
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}
+
+.bedrock-btn {
+    width: 8vw;
+    height: 4vh;
+    color: #000;
+    background-color: hotpink;
+    border-color: rgb(218, 88, 153);
+    border-radius: 1vh;
+    border-width: 0.1vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}

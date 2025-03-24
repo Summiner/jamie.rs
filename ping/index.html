@@ -9,13 +9,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="index.js"></script> 
   <!-- end style stuff -->
 </head>
 
 <body>
-    <div class="about">
+    <div class="main">
         <div class="text">
-            <h1>Ping a server</h1>
+            <h1>Ping a minecraft server</h1>
+            <h3>Quickly get information on a server</h3>
+        </div>
+        <div class="server-input">
+            <input type="text" name="address" id="address" maxlength="74" placeholder="example.net / play.example.com / 127.0.0.1 / 127.0.0.1:25565" required="" class="input-txt" autofocus="">
+            <button type="submit" class="input-btn" onclick="ping()">Get Sever</button>
+        </div>
+        <div id="server-info" class="server" hidden><!-- hidden -->
+            <h2 id="server-name">SERVER NAME</h2>
+            <div class="server-display">
+                <h4>Players:</h4>
+                <h5 id="server-players" class="server-info-text">100/500</h5>
+            </div>
+            <div class="server-display">
+                <h4>Version:</h4>
+                <h5 id="server-version" class="server-info-text">1.20.4</h5>
+            </div>
+            <div id="motd-info" class="server-display">
+                <h4>MOTD:</h4>
+                <div class="motd-box">
+                    <p id="motd-1">Line 1</p>
+                    <p id="motd-2">Line 2</p>
+                </div>
+            </div>
+            <div id="type-buttons" class="buttons" hidden>
+                <button type="submit" class="java-btn" onclick="java()">Java</button>
+                <button type="submit" class="bedrock-btn" onclick="bedrock()">Bedrock</button>
+            </div>
+        </div>
     </div>
     
 </body>
