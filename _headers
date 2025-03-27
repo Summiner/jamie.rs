@@ -1,10 +1,10 @@
-https://jamie.rs/ping*
+https://jamie.rs/ping/*
   Cache-Control: no-store
   "Access-Control-Allow-Origin": "*"
   "Access-Control-Allow-Headers": "*"
   "Access-Control-Allow-Methods": "GET, OPTIONS"
 
-https://jamie.rs/dnd*
+https://jamie.rs/dnd/*
   Cache-Control: no-store
   "Access-Control-Allow-Origin": "*"
   "Access-Control-Allow-Headers": "*"
