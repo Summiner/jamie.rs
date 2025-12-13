@@ -4,7 +4,7 @@ async function ping() {
     if(address.length<5) return;
     if(address.length>75) return;
     console.log("Address: "+address)
-    var res = await fetch('https://ping.jamie.rs/getServer?server='+address, {
+    var res = await fetch('https://api.jamie.rs/server?server='+address, {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
